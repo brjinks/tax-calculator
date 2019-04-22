@@ -1,0 +1,39 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5rem;
+  overflow: hidden;
+}
+
+.container {
+  text-align: center;
+}
+
+#submit {
+  display: block;
+  margin: 3rem auto;
+  background: #0094ff;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  border-radius: 5%;
+}
+
+h3 {
+  width: 70%;
+
+  margin: auto;
+}
+
+h1 {
+  line-height: 2rem;
+}
+
+@media (max-height: 350px) {
+  h1 {
+    display: none;
+  }
+}

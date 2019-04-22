@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Estimated Tax Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>2019 Estimated Tax Calculator</h1>
+      <form id="myForm">
+        <label for="expectedIncome">Expected Adjusted Gross Income</label>
+        <input id="expectedIncome" type="number" />
+
+        <div id="selector">
+          <label for="dropdown">Choose a filing Status:</label>
+
+          <select id="dropdown">
+            <option value="">--Please choose an option--</option>
+            <option value="Single">Single</option>
+            <option value="Head of Household">Head of Household</option>
+            <option value="Married Filing Jointly"
+              >Married Filing Jointly</option
+            >
+          </select>
+        </div>
+        <button id="submit" type="submit">Submit</button>
+      </form>
+      <div id="result"></div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
